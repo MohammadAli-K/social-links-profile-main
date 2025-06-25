@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [http://127.0.0.1:5500/]
-- Live Site URL: [https://blog-preview-card-main-mk.netlify.app/]
+- Live Site URL: [https://social-links-profile-main-mk.netlify.app/]
 
 ## My process
 
@@ -45,5 +45,5 @@ I mainly want to focus on layout-related topics like Flexbox and Grid, but also 
 
 ## Author
 
-- Website - [MohammedK](https://blog-preview-card-main-mk.netlify.app/)
+- Website - [MohammedK](https://social-links-profile-main-mk.netlify.app/)
 - Frontend Mentor - [@MohammadAli-K](https://www.frontendmentor.io/profile/MohammadAli-K)
