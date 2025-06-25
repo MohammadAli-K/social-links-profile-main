@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #c5f82a;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  background: #141414;
+  color: #fff;
+  height: 100vh;
+  position: relative;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  background: #1f1f1f;
+  padding: 1.8rem;
+  border-radius: 10px;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.card__profile-image img {
+  border-radius: 50%;
+  max-width: 4.3rem;
+  margin-bottom: 15px;
+}
+
+.card__profile-name {
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.card__profile-adress {
+  color: var(--primary-color);
+}
+
+.card__social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card__social-link {
+  font-weight: bold;
+  background: #333;
+  padding: 0.7rem 5rem;
+  border-radius: 5px;
+}
+
+.card__profile-adress,
+.card__description,
+.card__social-links {
+  font-size: 0.8rem;
+}
+
+.card__social-link:hover {
+  background: var(--primary-color);
+  color: #141414;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.attribution a {
+  color: #fff;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 746px) {
+  .card {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 546px) {
+  .card {
+    margin-bottom: 3rem;
+  }
+
+  .attribution {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .card {
+    margin: 3rem auto;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
